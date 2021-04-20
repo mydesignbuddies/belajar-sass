@@ -1,11 +1,36 @@
 // Untuk keseluruhan
+// .main {
+//     background-color: aqua;
+//     .main-heading {
+//         font-size: 2em;
+//     }
+
+//     .main-paragraph {
+//         font-size: 1.5em;
+//     }
+// }
+
+// Untuk h1 dan p yang ada di footer dan main
+// .main, 
+// footer {
+//     h1,
+//     p {
+//         letter-spacing: 1px;
+//     }
+// }
+
+// &
+// Parent Selector
 .main {
-    background-color: aqua;
+    .container & {
+        background-color: salmon;
+    }
     .main-heading {
         font-size: 2em;
     }
 
-    .main-paragraph {
-        font-size: 1.5em;
+    // untuk Parent
+    &:hover {
+        background-color: aqua;
     }
 }
