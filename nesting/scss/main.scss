@@ -21,16 +21,35 @@
 
 // &
 // Parent Selector
+// .main {
+//     .container & {
+//         background-color: salmon;
+//     }
+//     .main-heading {
+//         font-size: 2em;
+//     }
+
+//     // untuk Parent
+//     &:hover {
+//         background-color: aqua;
+//     }
+// }
+
 .main {
-    .container & {
-        background-color: salmon;
+    & &-heading {
+        font-size: 2em;
     }
-    .main-heading {
+    & &-paragraph {
+        font-size: 1.5em;
+    }
+}
+
+footer {
+    & &-heading {
         font-size: 2em;
     }
 
-    // untuk Parent
-    &:hover {
-        background-color: aqua;
+    & &-paragraph {
+        font-size: 1.4em;
     }
 }
