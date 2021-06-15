@@ -1,20 +1,21 @@
-.header ul {
+.footer ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.header ul li {
+.footer ul li {
   display: inline-block;
 }
 
-.header ul li {
-  background-color: black;
-  padding: 0.7em;
+.footer ul li {
+  background-color: salmon;
+  padding: 0.4em;
 }
 
-.header ul li a {
+.footer ul a {
   color: white;
+  text-decoration: none;
 }
 
 .container {

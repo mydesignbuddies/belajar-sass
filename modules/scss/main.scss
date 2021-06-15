@@ -1,5 +1,14 @@
 // Modularisasi sesuai struktur HTML
-@import 'mixin';
-@import 'header';
-@import 'container';
-@import 'footer';
+// @import 'modules/mixin';
+// @import 'modules/header';
+// @import 'modules/container';
+// @import 'modules/footer';
+
+// Cara memanggil modules file dengan @import
+@import 'modules/mixin', 'modules/footer', 'modules/container', 'modules/footer';
+
+// Cara memanggil modules file dengan @use
+// @use 'modules/mixin';
+// @use 'modules/header';
+// @use 'modules/container';
+// @use 'modules/footer';
