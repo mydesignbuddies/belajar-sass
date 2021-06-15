@@ -14,14 +14,15 @@
 // }
 
 // SASS Variable
-$primary-color: #f4f1de;
+// $primary-color: #f4f1de;
 $secondary-color: #f2cc8f;
 $text-color: #e07a5f;
 
 body {
+    $primary-color: #f4f1de; //mendeklarasikan variable lokal
     background-color: $primary-color;
 }
 
 h1 {
-    color: $text-color;
+    color: $primary-color; //tidak akan berfungsi
 }
