@@ -1,8 +1,8 @@
 // Cara memanggil modules file dengan @use
-// @use 'mixin';
+@use 'mixin';
 
 .footer ul {
-    @include inline-list();
+    @include mixin.inline-list();
 
     li {
         background-color: salmon;

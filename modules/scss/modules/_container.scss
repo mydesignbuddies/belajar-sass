@@ -1,8 +1,8 @@
 // Cara memanggil modules file dengan @use
-// @use 'mixin';
+@use 'mixin';
 
 .container {
-    @include flex-box(row-reverse, space-evenly); //memasukkan value parameter dari function flex-box()
+    @include mixin.flex-box(row-reverse, space-evenly); //memasukkan value parameter dari function flex-box()
     width: 600px;
     height: 400px;
     background-color: #eaeaee;

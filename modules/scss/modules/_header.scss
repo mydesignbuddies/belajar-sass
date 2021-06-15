@@ -1,9 +1,9 @@
 // Cara memanggil modules file dengan @use
-// @use 'mixin'; //langsung aja karena satu folder
+@use 'mixin'; //langsung aja karena satu folder
 
 
 .header ul {
-    @include inline-list();
+    @include mixin.inline-list();
 
     li {
         background-color: black;
