@@ -47,15 +47,39 @@
 
 
 // Argument pada Mixin
-@mixin flex-box($direction) { //memasukkan parameter
+// @mixin flex-box($direction) { //memasukkan parameter
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: $direction;
+// }
+
+// .container {
+//     @include flex-box(row-reverse); //memasukkan value parameter dari function flex-box()
+//     width: 600px;
+//     height: 400px;
+//     background-color: #eaeaee;
+
+//     .box {
+//         width: 60px;
+//         height: 60px;
+//         background-color: yellow;
+//         text-align: center;
+//         line-height: 60px;
+//     }
+
+
+
+// Cara lain
+@mixin flex-box($direction: row-reverse, $space: space-evenly) { //memasukkan default parameter dan value
     display: flex;
-    justify-content: center;
+    justify-content: $space;
     align-items: center;
     flex-direction: $direction;
 }
 
 .container {
-    @include flex-box(row-reverse); //memasukkan value parameter dari function flex-box()
+    @include flex-box(row-reverse, space-evenly); //memasukkan value parameter dari function flex-box()
     width: 600px;
     height: 400px;
     background-color: #eaeaee;
@@ -67,4 +91,4 @@
         text-align: center;
         line-height: 60px;
     }
-}
+}    
