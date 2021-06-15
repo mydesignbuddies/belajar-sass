@@ -15,15 +15,30 @@
 
 // SASS Variable
 // $primary-color: #f4f1de;
-$secondary-color: #f2cc8f;
-$text-color: #e07a5f;
+// $secondary-color: #f2cc8f;
+// $text-color: #e07a5f;
 
-body {
-    // $primary-color: #f4f1de; //mendeklarasikan variable lokal
-    $primary-color: #f4f1de !global; //mendeklarasikan variable global
-    background-color: $primary-color;
-}
+// body {
+//     // $primary-color: #f4f1de; //mendeklarasikan variable lokal
+//     $primary-color: #f4f1de !global; //mendeklarasikan variable global
+//     background-color: $primary-color;
+// }
+
+// h1 {
+//     color: $primary-color; //akan berfungsi
+// }
+
+// Map
+// $alert-danger: red;
+// $alert-success: green;
+// $alert-warning: orange;
+
+$alert: (
+    'danger': red,
+    'success': green,
+    'warning': orange,
+);
 
 h1 {
-    color: $primary-color; //akan berfungsi
+    color: map-get($alert, 'success');
 }
