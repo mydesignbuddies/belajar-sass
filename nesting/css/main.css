@@ -1,12 +1,8 @@
-.main {
-  background-color: aqua;
+body {
+  background-color: #f4f1de;
 }
 
-.main .main-heading {
-  font-size: 2em;
-}
-
-.main .main-paragraph {
-  font-size: 1.5em;
+h1 {
+  color: #e07a5f;
 }
 /*# sourceMappingURL=main.css.map */
