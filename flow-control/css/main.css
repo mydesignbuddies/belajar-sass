@@ -33,4 +33,10 @@ body {
   border-width: 1em;
   border-left-color: black;
 }
+
+.gradient {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 /*# sourceMappingURL=main.css.map */
