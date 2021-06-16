@@ -39,4 +39,54 @@ body {
   padding: 0;
   list-style: none;
 }
+
+.gradient li::nth-child(1) {
+  padding: 4px;
+  backgrpund-color: #0f0fff;
+}
+
+.gradient li::nth-child(2) {
+  padding: 4px;
+  backgrpund-color: #1f1fff;
+}
+
+.gradient li::nth-child(3) {
+  padding: 4px;
+  backgrpund-color: #2e2eff;
+}
+
+.gradient li::nth-child(4) {
+  padding: 4px;
+  backgrpund-color: #3d3dff;
+}
+
+.gradient li::nth-child(5) {
+  padding: 4px;
+  backgrpund-color: #4d4dff;
+}
+
+.gradient li::nth-child(6) {
+  padding: 4px;
+  backgrpund-color: #5c5cff;
+}
+
+.gradient li::nth-child(7) {
+  padding: 4px;
+  backgrpund-color: #6b6bff;
+}
+
+.gradient li::nth-child(8) {
+  padding: 4px;
+  backgrpund-color: #7a7aff;
+}
+
+.gradient li::nth-child(9) {
+  padding: 4px;
+  backgrpund-color: #8a8aff;
+}
+
+.gradient li::nth-child(10) {
+  padding: 4px;
+  backgrpund-color: #9999ff;
+}
 /*# sourceMappingURL=main.css.map */

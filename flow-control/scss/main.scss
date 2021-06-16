@@ -73,11 +73,21 @@ $color: blue;
   padding: 0;
   list-style: none;
 
-  // @for condition pengulangan
-  @for $i from 1 to 10 {
-    li:nth-child(#{$i}) {
-      padding: 4px;
-      background-color: lighten($color, $amount: 3%);
+    // @for condition pengulangan
+//   @for $i from 1 to 10 {
+//     li:nth-child(#{$i}) {
+//       padding: 4px;
+//       background-color: lighten($color, $i * 3%);
+//     }
+//   }
+
+    // @while condition pengulangan
+    $i: 1;
+    @while $i < 11 {
+        li::nth-child(#{$i}) {
+            padding: 4px;
+            backgrpund-color: lighten($color, $i * 3%);
+        }
+        $i: $i + 1;
     }
-  }
 }
