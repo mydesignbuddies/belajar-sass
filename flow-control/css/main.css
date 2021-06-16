@@ -42,51 +42,81 @@ body {
 
 .gradient li::nth-child(1) {
   padding: 4px;
-  backgrpund-color: #0f0fff;
+  background-color: #0f0fff;
 }
 
 .gradient li::nth-child(2) {
   padding: 4px;
-  backgrpund-color: #1f1fff;
+  background-color: #1f1fff;
 }
 
 .gradient li::nth-child(3) {
   padding: 4px;
-  backgrpund-color: #2e2eff;
+  background-color: #2e2eff;
 }
 
 .gradient li::nth-child(4) {
   padding: 4px;
-  backgrpund-color: #3d3dff;
+  background-color: #3d3dff;
 }
 
 .gradient li::nth-child(5) {
   padding: 4px;
-  backgrpund-color: #4d4dff;
+  background-color: #4d4dff;
 }
 
 .gradient li::nth-child(6) {
   padding: 4px;
-  backgrpund-color: #5c5cff;
+  background-color: #5c5cff;
 }
 
 .gradient li::nth-child(7) {
   padding: 4px;
-  backgrpund-color: #6b6bff;
+  background-color: #6b6bff;
 }
 
 .gradient li::nth-child(8) {
   padding: 4px;
-  backgrpund-color: #7a7aff;
+  background-color: #7a7aff;
 }
 
 .gradient li::nth-child(9) {
   padding: 4px;
-  backgrpund-color: #8a8aff;
+  background-color: #8a8aff;
 }
 
 .gradient li::nth-child(10) {
   padding: 4px;
-  backgrpund-color: #9999ff;
+  background-color: #9999ff;
+}
+
+.socials {
+  font-size: 2em;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.socials .youtube {
+  color: #ff0000;
+}
+
+.socials .behance {
+  color: #3b5998;
+}
+
+.socials .twitter {
+  color: #1da1f2;
+}
+
+.socials .instagram {
+  color: #ffbf34;
+}
+
+.socials .dribbble {
+  color: #8134af;
+}
+
+.socials .girhub {
+  color: #0000;
 }
 /*# sourceMappingURL=main.css.map */
